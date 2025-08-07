@@ -1,5 +1,9 @@
-print('=== Cálculo da Idade ===')
-ano_atual = 2025
-ano_nascimento = int(input('Digite o ano do nascimento: '))
-idade = ano_atual - ano_nascimento
-print('A sua idade é '+str(idade))
+#Calcular a idade
+ano = 2025
+ano_nasc = int(input("Digite o ano do seu nascimento: "))
+idade = ano - ano_nasc
+print("Sua idade em ",ano," é ", idade," anos!")
+if(idade >= 16):
+    print("Pode votar!")
+else:
+    print("Não vota!")
